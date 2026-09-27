@@ -416,6 +416,48 @@ h2.green { color: var(--venom); }
   font-family: ui-monospace, 'SF Mono', Menlo, monospace;
 }
 
+/* ── Search ────────────────────────────── */
+
+.search-box { margin-bottom: 14px; }
+
+.search-box input {
+  width: 100%;
+  background: var(--panel);
+  border: 1px solid var(--border);
+  color: var(--parch);
+  padding: 10px 12px;
+  font-family: var(--body);
+  font-size: 14px;
+  border-radius: 0;
+}
+
+.search-box input::placeholder { color: var(--dim); opacity: 0.7; }
+.search-box input:focus { outline: none; border-color: var(--gold); }
+
+.search-hits { margin-bottom: 20px; }
+.search-hit { align-items: flex-start; border-bottom: 1px solid var(--border-light); padding: 8px 0; }
+.search-hit .q-chk { margin-top: 1px; }
+
+.hit-body { display: flex; flex-direction: column; gap: 2px; min-width: 0; }
+
+.hit-where {
+  background: none;
+  border: none;
+  padding: 0;
+  color: var(--dim);
+  font-family: var(--body);
+  font-size: 12px;
+  text-align: left;
+  cursor: pointer;
+  text-decoration: underline;
+  text-decoration-color: rgba(156,140,166,0.35);
+  text-underline-offset: 2px;
+}
+
+.hit-where:hover { color: var(--gold); text-decoration-color: var(--gold); }
+
+.quest.flash { background: var(--gold-dim); box-shadow: -8px 0 0 var(--gold-dim), 8px 0 0 var(--gold-dim); }
+
 /* ── Rows (priorities, standing items) ─── */
 
 .row {
@@ -788,6 +830,7 @@ footer {
 .log-x:focus-visible,
 .log-row button:focus-visible,
 .import-btn:focus-visible,
+.hit-where:focus-visible,
 .import-go:focus-visible,
 .import-cancel:focus-visible {
   outline: 2px solid var(--void);

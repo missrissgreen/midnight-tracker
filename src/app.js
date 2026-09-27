@@ -346,8 +346,94 @@
 
   // ── Campaign ───────────────────────────────────────
 
+  // ── Search ─────────────────────────────────────────
+
+  var questIndex = null;
+
+  function buildQuestIndex() {
+    var out = [];
+    function add(quests, where) {
+      for (var i = 0; i < quests.length; i++) {
+        out.push({ q: quests[i], name: norm(quests[i].name), zone: where.zone, place: where.place,
+          secKey: where.secKey, side: !!where.side, tab: where.tab || 'campaign' });
+      }
+    }
+    for (var zi = 0; zi < ZONES.length; zi++) {
+      var z = ZONES[zi];
+      if (z.intro) add(z.intro.quests, { zone: z.id, place: z.name + ' › ' + z.intro.name, secKey: z.id + ':intro' });
+      for (var ci = 0; ci < z.chapters.length; ci++) {
+        var c = z.chapters[ci];
+        add(c.quests, { zone: z.id, place: z.name + ' › ' + pad(c.n) + ' ' + c.name, secKey: z.id + ':ch' + c.n });
+      }
+      var bridges = z.bridges || [];
+      for (var bi = 0; bi < bridges.length; bi++)
+        add(bridges[bi].quests, { zone: z.id, place: z.name + ' › ' + bridges[bi].name, secKey: z.id + ':br:' + bridges[bi].name });
+      var sides = z.sideStories || [];
+      for (var si = 0; si < sides.length; si++)
+        add(sides[si].quests, { zone: z.id, place: z.name + ' › ' + sides[si].name, secKey: z.id + ':sd:' + sides[si].name, side: true });
+    }
+    var specials = EXPANSION.specialChains || [];
+    for (var sci = 0; sci < specials.length; sci++)
+      add(specials[sci].quests, { place: 'Unlocks › ' + specials[sci].name, secKey: 'sp:' + specials[sci].id, tab: 'standing' });
+    return out;
+  }
+
+  // Lowercase, drop apostrophes, collapse punctuation so "de hashey" finds "de Hash'ey".
+  function norm(s) {
+    return String(s).toLowerCase().replace(/['’]/g, '').replace(/[^a-z0-9]+/g, ' ').trim();
+  }
+
+  function renderSearchResults() {
+    var term = norm(ui.search);
+    ui.searchHits = [];
+    if (!term) return '';
+    if (!questIndex) questIndex = buildQuestIndex();
+
+    for (var i = 0; i < questIndex.length; i++) {
+      var e = questIndex[i];
+      if (e.name.indexOf(term) !== -1 || String(e.q.id) === term) ui.searchHits.push(e);
+    }
+
+    if (ui.searchHits.length === 0) return '<p class="hint">No quests match “' + esc(ui.search.trim()) + '”.</p>';
+
+    var shown = Math.min(ui.searchHits.length, 50);
+    var h = '<p class="hint">' + ui.searchHits.length + ' match' + (ui.searchHits.length === 1 ? '' : 'es') +
+      (shown < ui.searchHits.length ? ', showing the first ' + shown : '') + '. Tap where it lives to jump there.</p>';
+    h += '<div class="search-hits">';
+    for (var hi = 0; hi < shown; hi++) {
+      var hit = ui.searchHits[hi];
+      var qd = qDone(hit.q);
+      var green = hit.side;
+      h += '<div class="quest search-hit' + (qd ? ' done' : '') + '">';
+      h += '<button class="q-chk' + (green ? ' green' : '') + (qd ? ' on' : '') + '" data-act="quest" data-v="' + esc(qk(hit.q)) + '" aria-pressed="' + qd + '" aria-label="' + esc(hit.q.name) + '"></button>';
+      h += '<div class="hit-body">';
+      h += '<span class="q-name">' + esc(hit.q.name) + '</span>';
+      h += '<button class="hit-where" data-act="reveal" data-v="' + hi + '">' + esc(hit.place) + '</button>';
+      h += '</div></div>';
+    }
+    h += '</div>';
+    return h;
+  }
+
+  function revealHit(e) {
+    ui.search = '';
+    ui.tab = e.tab;
+    if (e.zone) ui.openZones[e.zone] = true;
+    if (e.side) ui.openSections[e.zone + ':sojourner'] = true;
+    ui.openSections[e.secKey] = true;
+    ui.flash = qk(e.q);
+    render();
+    var row = document.querySelector('.quest.flash');
+    if (row) row.scrollIntoView({ block: 'center' });
+  }
+
   function renderCampaign() {
-    var h = '<p class="hint">Eversong first, then the three branches in any order, then Voidstorm, then the finale. Tap a chapter to see its quests.</p>';
+    var h = '<div class="search-box">';
+    h += '<input type="search" id="quest-search" placeholder="Find a quest by name or ID..." value="' + esc(ui.search) + '" autocomplete="off" aria-label="Find a quest">';
+    h += '</div>';
+    h += '<div id="search-results">' + renderSearchResults() + '</div>';
+    h += '<div id="zone-tree"' + (norm(ui.search) ? ' hidden' : '') + '>';
+    h += '<p class="hint">Eversong first, then the three branches in any order, then Voidstorm, then the finale. Tap a chapter to see its quests.</p>';
 
     for (var zi = 0; zi < ZONES.length; zi++) {
       var z = ZONES[zi];
@@ -420,6 +506,7 @@
       h += '</div>';
     }
 
+    h += '</div>';
     return h;
   }
 
@@ -445,7 +532,7 @@
       for (var i = 0; i < group.quests.length; i++) {
         var q = group.quests[i];
         var qd = qDone(q);
-        h += '<div class="quest' + (qd ? ' done' : '') + '">';
+        h += '<div class="quest' + (qd ? ' done' : '') + (ui.flash === qk(q) ? ' flash' : '') + '">';
         h += '<button class="q-chk' + (green ? ' green' : '') + (qd ? ' on' : '') + '" data-act="quest" data-v="' + esc(qk(q)) + '" aria-pressed="' + qd + '" aria-label="' + esc(q.name) + '"></button>';
         h += '<span class="q-name">' + esc(q.name) + '</span>';
         if (q.id) h += '<span class="q-id">' + q.id + '</span>';
@@ -478,7 +565,7 @@
       for (var i = 0; i < chain.quests.length; i++) {
         var q = chain.quests[i];
         var qd = qDone(q);
-        h += '<div class="quest' + (qd ? ' done' : '') + '">';
+        h += '<div class="quest' + (qd ? ' done' : '') + (ui.flash === qk(q) ? ' flash' : '') + '">';
         h += '<button class="q-chk' + (qd ? ' on' : '') + '" data-act="quest" data-v="' + esc(qk(q)) + '" aria-pressed="' + qd + '" aria-label="' + esc(q.name) + '"></button>';
         h += '<span class="q-name">' + esc(q.name) + '</span>';
         if (q.id) h += '<span class="q-id">' + q.id + '</span>';
@@ -757,7 +844,11 @@
     switch (act) {
       case 'tab':
         ui.tab = v;
+        ui.flash = null;
         render(true);
+        break;
+      case 'reveal':
+        if (ui.searchHits[v]) revealHit(ui.searchHits[v]);
         break;
       case 'zone':
         ui.openZones[v] = !ui.openZones[v];
@@ -877,6 +968,10 @@
   }
 
   function handleKeydown(e) {
+    if (e.key === 'Escape' && e.target.id === 'quest-search') {
+      e.target.value = '';
+      updateSearch('');
+    }
     if (e.key === 'Enter' && e.target.id === 'log-draft') {
       var text = e.target.value.trim();
       if (!text) return;
@@ -897,7 +992,16 @@
     }
   }
 
+  // Update only the results so the search box keeps focus while typing.
+  function updateSearch(value) {
+    ui.search = value;
+    ui.flash = null;
+    document.getElementById('search-results').innerHTML = renderSearchResults();
+    document.getElementById('zone-tree').hidden = !!norm(value);
+  }
+
   function handleInput(e) {
+    if (e.target.id === 'quest-search') updateSearch(e.target.value);
     if (e.target.id === 'log-draft') ui.draft = e.target.value;
     if (e.target.id === 'unlock-draft') ui.unlockDraft = e.target.value;
   }
@@ -905,7 +1009,7 @@
   // ── Init ───────────────────────────────────────────
 
   load();
-  ui = { tab: 'tonight', openZones: {}, openSections: {}, draft: '', unlockDraft: '', showImport: false, importResult: null, showBackup: false, backupResult: null };
+  ui = { tab: 'tonight', openZones: {}, openSections: {}, draft: '', unlockDraft: '', showImport: false, importResult: null, showBackup: false, backupResult: null, search: '', searchHits: [], flash: null };
   ui.openZones[EXPANSION.zoneOrder[0]] = true;
 
   var root = document.getElementById('app');
