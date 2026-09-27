@@ -1,0 +1,294 @@
+{
+  "id": "eversong",
+  "name": "Eversong Woods",
+  "levelBand": [80, 82],
+  "requires": [],
+  "note": "The Ghostlands have healed from the Scourge. Now teeming with life, you'll face the Void, the Lightbloom overgrowth, Void cultists, and Amani trolls.",
+  "achievements": {
+    "campaign": "Eversong In Reprise",
+    "sojourner": "Sojourner of Eversong Woods"
+  },
+  "intro": {
+    "name": "The Light's Summons",
+    "achievement": "Call of the Light",
+    "quests": [
+      { "id": 91281, "name": "Midnight" },
+      { "id": 88719, "name": "A Voice from the Light" },
+      { "id": 86769, "name": "Last Bastion of the Light" },
+      { "id": 86770, "name": "Champions of Quel'Danas" },
+      { "id": 89271, "name": "My Son" },
+      { "id": 86780, "name": "Where Heroes Hold" },
+      { "id": 86805, "name": "The Hour of Need" },
+      { "id": 89012, "name": "A Safe Path" },
+      { "id": 86806, "name": "Luminous Wings" },
+      { "id": 86807, "name": "The Gate" },
+      { "id": 91274, "name": "Severing the Void" },
+      { "id": 86834, "name": "Voidborn Banishing" },
+      { "id": 86811, "name": "Ethereal Eradication" },
+      { "id": 86848, "name": "Light's Arsenal" },
+      { "id": 86849, "name": "Wrath Unleashed" },
+      { "id": 86850, "name": "Broken Sun" },
+      { "id": 86852, "name": "Light's Last Stand" }
+    ]
+  },
+  "chapters": [
+    {
+      "n": 1,
+      "name": "Whispers in the Twilight",
+      "quests": [
+        { "id": 86733, "name": "Silvermoon Negotiations" },
+        { "id": 86734, "name": "Diplomacy" },
+        { "id": 86735, "name": "Paved in Ash" },
+        { "id": 86737, "name": "Fair Breeze, Light Bloom" },
+        { "id": 86738, "name": "Sharpmaw" },
+        { "id": 86739, "name": "Fairbreeze Favors" },
+        { "id": 86740, "name": "Displaced Denizens" },
+        { "id": 86741, "name": "Lightbloom Looming" },
+        { "id": 86742, "name": "Curious Cultivation" },
+        { "id": 86743, "name": "Trimming the Lightbloom" },
+        { "id": 86744, "name": "Seeking Truth" },
+        { "id": 86745, "name": "Silvermoon Must Know" }
+      ]
+    },
+    {
+      "n": 2,
+      "name": "Shadowfall",
+      "quests": [
+        { "id": 86621, "name": "The Wayward Magister" },
+        { "id": 86623, "name": "Appeal to the Void" },
+        { "id": 86624, "name": "Rational Explanation" },
+        { "id": 90907, "name": "The First to Know" },
+        { "id": 86622, "name": "Chance Meeting" },
+        { "id": 86626, "name": "The Ransacked Lab" },
+        { "id": 86632, "name": "The Battle for Tranquillien" },
+        { "id": 90509, "name": "The Traitors of Tranquillien" },
+        { "id": 90493, "name": "The Heart of Tranquillien" },
+        { "id": 90494, "name": "The Missing Magister" },
+        { "id": 86781, "name": "Face the Past" },
+        { "id": 86634, "name": "The Past Keeps Watch" },
+        { "id": 86633, "name": "Comprehend the Void" },
+        { "id": 86635, "name": "To Deatholme" },
+        { "id": 86636, "name": "Void Walk With Me" }
+      ]
+    },
+    {
+      "n": 3,
+      "name": "Ripple Effects",
+      "quests": [
+        { "id": 86637, "name": "Anything but Reprieve" },
+        { "id": 86638, "name": "Choking Tendrils" },
+        { "id": 86639, "name": "What's Left" },
+        { "id": 86640, "name": "Premonition" },
+        { "id": 86641, "name": "Old Scars" },
+        { "id": 86642, "name": "A Foe Unseen" },
+        { "id": 86643, "name": "Following the Root" },
+        { "id": 86644, "name": "Gods Before Us" },
+        { "id": 86646, "name": "An Impasse" },
+        { "id": 86647, "name": "Beat of Blood" },
+        { "id": 86648, "name": "Light Guide Us" },
+        { "id": 86649, "name": "Past Redemption" },
+        { "id": 86650, "name": "Fractured" }
+      ]
+    }
+  ],
+  "bridges": [
+    {
+      "name": "The Darkening Sky",
+      "quests": [
+        { "id": 91854, "name": "Deepening Shadows" },
+        { "id": 91967, "name": "You Know This Evil?" },
+        { "id": 91087, "name": "Reports Returned" },
+        { "id": 91084, "name": "Looming Shadows" }
+      ]
+    }
+  ],
+  "sideStories": [
+    {
+      "name": "Fear and Fel",
+      "quests": [
+        { "id": 90835, "name": "Murder Row: Rumors Abound" },
+        { "id": 90818, "name": "Murder Row: Loose Lips" },
+        { "id": 90837, "name": "Murder Row: Traces of Fel" },
+        { "id": 90819, "name": "Murder Row: Acting the Part" },
+        { "id": 90821, "name": "Murder Row: Harbored Secrets" },
+        { "id": 90822, "name": "Murder Row: One Fel Swoop" }
+      ]
+    },
+    {
+      "name": "Flowers for Amalthea",
+      "quests": [
+        { "id": 92021, "name": "Graveblossom Gardening" },
+        { "id": 92022, "name": "A Venomous Vocation" },
+        { "id": 92023, "name": "Suspicious Sundries" },
+        { "id": 92024, "name": "House Call" },
+        { "id": 92025, "name": "Flowers for Amalthea" }
+      ]
+    },
+    {
+      "name": "Sunbath, Take Me Away",
+      "quests": [
+        { "id": 91271, "name": "A Fish!" },
+        { "id": 91090, "name": "Pesky Pests" },
+        { "id": 91328, "name": "Secret Ingredients" },
+        { "id": 91137, "name": "Lost in Light" }
+      ]
+    },
+    {
+      "name": "Port Detective",
+      "quests": [
+        { "id": 87392, "name": "Cargo Conspiracy" },
+        { "id": 87393, "name": "Warranted Search" },
+        { "id": 87394, "name": "Supplier Surveillance" },
+        { "id": 87395, "name": "Below the Brine" },
+        { "id": 87397, "name": "Cargo Collateral" },
+        { "id": 87396, "name": "Dead to Rights" },
+        { "id": 87398, "name": "Smuggler Showdown" }
+      ]
+    },
+    {
+      "name": "Lesser Evil",
+      "quests": [
+        { "id": 90669, "name": "Gold is Gold" },
+        { "id": 89199, "name": "A Small Task" },
+        { "id": 89200, "name": "Unraveling Wards" },
+        { "id": 89201, "name": "Outschemed" },
+        { "id": 89202, "name": "Stir the Nest" },
+        { "id": 89203, "name": "Mutual Benefit" },
+        { "id": 89204, "name": "Five Finger Discount" },
+        { "id": 89205, "name": "Cutting a Key" },
+        { "id": 89206, "name": "Break and Enter" },
+        { "id": 89207, "name": "Rats Can Bite" },
+        { "id": 89208, "name": "What We're Owed" }
+      ]
+    },
+    {
+      "name": "One Adventurous Hatchling",
+      "quests": [
+        { "id": 89383, "name": "One Adventurous Hatchling" },
+        { "id": 89384, "name": "A Hungry Flock" },
+        { "id": 89386, "name": "A Roost-ed Development" },
+        { "id": 89385, "name": "First Step Into Parenthood" }
+      ]
+    },
+    {
+      "name": "Far Striding",
+      "quests": [
+        { "id": 94371, "name": "A Ranger's Dream" },
+        { "id": 91452, "name": "Range of Knowledge" },
+        { "id": 91342, "name": "If You Want It Done Right" },
+        { "id": 91345, "name": "To the North Tower" },
+        { "id": 91462, "name": "To the Central Tower" },
+        { "id": 91347, "name": "Strider Stampede" },
+        { "id": 91348, "name": "See a Mana 'bout a Wyrm" },
+        { "id": 91463, "name": "To the South Tower" },
+        { "id": 91349, "name": "The Dark Part of the Woods" },
+        { "id": 91350, "name": "A Real Assignment" },
+        { "id": 91384, "name": "Recovery Mission" },
+        { "id": 91383, "name": "Tidy Up" },
+        { "id": 91385, "name": "A Ranger's Spirit" }
+      ]
+    },
+    {
+      "name": "Tailor Troubles",
+      "quests": [
+        { "id": 91386, "name": "Mad to Measure" },
+        { "id": 91388, "name": "Uncommon Threads" },
+        { "id": 92408, "name": "Material Gains" },
+        { "id": 91389, "name": "Clothes Make the Man" }
+      ]
+    },
+    {
+      "name": "Blinding Sun",
+      "quests": [
+        { "id": 87399, "name": "Facing the Sun" },
+        { "id": 87400, "name": "Scattered in Sunbeams" },
+        { "id": 87401, "name": "Gardener Mishap" },
+        { "id": 87402, "name": "The Light Provides" }
+      ]
+    },
+    {
+      "name": "Runestone Rumbles",
+      "quests": [
+        { "id": 92396, "name": "Calling in the Cavalry" },
+        { "id": 92397, "name": "Dawnstar Defense" },
+        { "id": 92398, "name": "And Then They Came" }
+      ]
+    },
+    {
+      "name": "Paladin Rescue",
+      "quests": [
+        { "id": 90546, "name": "Missing Paladins" },
+        { "id": 90548, "name": "Twilight Missive" },
+        { "id": 90549, "name": "Signs of the Struggle" },
+        { "id": 90550, "name": "A Somber Sun" },
+        { "id": 90551, "name": "Captured Information" },
+        { "id": 90552, "name": "Interrogation" },
+        { "id": 90570, "name": "To the Ruins of Deatholme" },
+        { "id": 90553, "name": "Executing the Blades" },
+        { "id": 90554, "name": "Leave Ashes in Your Wake" },
+        { "id": 90555, "name": "Blessing of Freedom" },
+        { "id": 90556, "name": "Cutting off the Head" }
+      ]
+    },
+    {
+      "name": "How to Train Your Protege",
+      "quests": [
+        { "id": 94393, "name": "Career Counseling" },
+        { "id": 91284, "name": "A Path Not Yet Chosen" },
+        { "id": 91288, "name": "A Test of the Hunt" },
+        { "id": 91291, "name": "A Test of Blood" },
+        { "id": 91292, "name": "A Test of the Arcane" },
+        { "id": 91301, "name": "How to Train Your Protege" }
+      ]
+    },
+    {
+      "name": "Scootin' Through Silvermoon",
+      "quests": [
+        { "id": 92729, "name": "Hounded and Hassled" },
+        { "id": 92728, "name": "Dogged Disturbances" },
+        { "id": 92868, "name": "He Went Thataway" },
+        { "id": 92869, "name": "Fishy Dis-pondencies" },
+        { "id": 92870, "name": "Scoot Along Now" }
+      ]
+    },
+    {
+      "name": "Aspiring Academic",
+      "quests": [
+        { "id": 94396, "name": "Down a Peg" },
+        { "id": 86997, "name": "Spellbook Scuffle" },
+        { "id": 86998, "name": "Training Arc" },
+        { "id": 87002, "name": "Academic Aspirations" }
+      ]
+    },
+    {
+      "name": "The Drinking Debt",
+      "quests": [
+        { "id": 87455, "name": "Trials and Tabulations" },
+        { "id": 87456, "name": "Souvenirs Scattered" },
+        { "id": 87457, "name": "What We Do Best" },
+        { "id": 87458, "name": "Debts Paid" }
+      ]
+    },
+    {
+      "name": "Theft Tracking",
+      "quests": [
+        { "id": 94388, "name": "Second Time's a Choice" },
+        { "id": 88977, "name": "Reenact the Crime" },
+        { "id": 88978, "name": "Tracking the Trail" },
+        { "id": 88979, "name": "Caught Red-Handed" },
+        { "id": 90544, "name": "Thief at Bark" }
+      ]
+    },
+    {
+      "name": "Daggerspine Landing",
+      "quests": [
+        { "id": 94370, "name": "Slithering Closer" },
+        { "id": 91493, "name": "Not What I Ordered" },
+        { "id": 91505, "name": "Daggers in My Spine" },
+        { "id": 91495, "name": "Familiar Faces in Peril" },
+        { "id": 91494, "name": "One Elf's Trash, Another Elf's Treasure" },
+        { "id": 91504, "name": "Arcane Amassing" }
+      ]
+    }
+  ]
+}

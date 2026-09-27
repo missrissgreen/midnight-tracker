@@ -1,0 +1,259 @@
+{
+  "id": "voidstorm",
+  "name": "The Voidstorm",
+  "levelBand": [88, 90],
+  "requires": ["arator", "harandar", "zulaman"],
+  "note": "A distant chaotic world brimming with Void energy, where creatures fight to consume heroes and each other alike. Low gravity areas and massive Nexus Points mark this bastion of the void.",
+  "achievements": {
+    "campaign": "Breaching the Voidstorm",
+    "sojourner": "Sojourner of Voidstorm"
+  },
+  "intro": null,
+  "chapters": [
+    {
+      "n": 1,
+      "name": "Into the Abyss",
+      "quests": [
+        { "id": 92061, "name": "Rising Storm" },
+        { "id": 86543, "name": "Magisters' Terrace: Homecoming" },
+        { "id": 86549, "name": "No Fear of the Dark" },
+        { "id": 86558, "name": "Save a Piece of Mind" },
+        { "id": 86557, "name": "A Matter of Strife and Death" },
+        { "id": 86559, "name": "The Far, Far Frontier" },
+        { "id": 86562, "name": "Dancing with Death" },
+        { "id": 86561, "name": "A Strange, Different World" },
+        { "id": 86565, "name": "No Prayer for the Wicked" }
+      ]
+    },
+    {
+      "n": 2,
+      "name": "The Night's Veil",
+      "quests": [
+        { "id": 86536, "name": "Reliable Enemies" },
+        { "id": 86531, "name": "Work Disruption" },
+        { "id": 86530, "name": "First, The Shells" },
+        { "id": 86528, "name": "A Cracked Holokey" },
+        { "id": 86538, "name": "Second, The Fuel" },
+        { "id": 86537, "name": "Network Insecurity" },
+        { "id": 86539, "name": "A Naaru!" },
+        { "id": 86540, "name": "Third, Blow It Up" },
+        { "id": 86541, "name": "Just In Case..." },
+        { "id": 88768, "name": "Agents of Darkness" },
+        { "id": 86542, "name": "Flicker in the Dark" },
+        { "id": 89249, "name": "Overwhelmed" },
+        { "id": 86544, "name": "Post-Mortem" },
+        { "id": 86545, "name": "The Light's Brand" }
+      ]
+    },
+    {
+      "n": 3,
+      "name": "Dawn of Reckoning",
+      "quests": [
+        { "id": 86509, "name": "Friend or Fiend" },
+        { "id": 86510, "name": "Domus Penumbra" },
+        { "id": 90571, "name": "The Lay of the Beast" },
+        { "id": 86511, "name": "Edge of the Abyss" },
+        { "id": 86512, "name": "The Harvest" },
+        { "id": 86513, "name": "Face the Tide" },
+        { "id": 86514, "name": "Lady of the Pit" },
+        { "id": 86516, "name": "All Become Prey" },
+        { "id": 86517, "name": "Vanished in the Void" },
+        { "id": 86515, "name": "Hollow Hunger" },
+        { "id": 86518, "name": "The Mantle of Predation" },
+        { "id": 86519, "name": "Abyssus, Abyssum" },
+        { "id": 86520, "name": "Hunt the Light" },
+        { "id": 86521, "name": "Nexus-Point Xenas: Eclipse" },
+        { "id": 86522, "name": "Daylight is Breaking" },
+        { "id": 95276, "name": "The Last Push" }
+      ]
+    }
+  ],
+  "sideStories": [
+    {
+      "name": "The Void Peers Back",
+      "quests": [
+        { "id": 88755, "name": "Scholarly Pursuits" },
+        { "id": 87388, "name": "A Bigger Beast" },
+        { "id": 87391, "name": "Sampling the Local Fare" },
+        { "id": 88653, "name": "Yolks on You" },
+        { "id": 87672, "name": "Void is in the Air" },
+        { "id": 88708, "name": "Violent Conclusions" }
+      ]
+    },
+    {
+      "name": "Shadow Puppets",
+      "quests": [
+        { "id": 91145, "name": "The Conquered Heroes" },
+        { "id": 91146, "name": "Flickering Light" },
+        { "id": 91147, "name": "Cut Her Strings" },
+        { "id": 91148, "name": "Strung Along" },
+        { "id": 91149, "name": "Bury Me Not" },
+        { "id": 92641, "name": "Bloodying the Plain" }
+      ]
+    },
+    {
+      "name": "The Nethersent",
+      "quests": [
+        { "id": 90782, "name": "The Nethersent" },
+        { "id": 90866, "name": "Universal Language" },
+        { "id": 90872, "name": "Drenched In It" },
+        { "id": 90873, "name": "These Violent Delights" },
+        { "id": 90874, "name": "Their Violent Ends" },
+        { "id": 90875, "name": "Across Worlds" }
+      ]
+    },
+    {
+      "name": "The Nightbreaker",
+      "quests": [
+        { "id": 91343, "name": "Ambition's Reward" },
+        { "id": 91341, "name": "Unlimited" },
+        { "id": 91340, "name": "For Violence's Sake" },
+        { "id": 91339, "name": "Smothered in the Crib" },
+        { "id": 90910, "name": "Overwhelming Darkness" }
+      ]
+    },
+    {
+      "name": "Pathogenic Problem",
+      "quests": [
+        { "id": 91557, "name": "Message to the Molt" },
+        { "id": 91558, "name": "Pestilent Petals" },
+        { "id": 91559, "name": "Virulent Vermin" },
+        { "id": 91560, "name": "Expunging Explorers" },
+        { "id": 91561, "name": "Bloodborne Pathogen" },
+        { "id": 93801, "name": "Calculated Culling" }
+      ]
+    },
+    {
+      "name": "A Voice Inside",
+      "quests": [
+        { "id": 91884, "name": "The Illusion of Motion" },
+        { "id": 91885, "name": "Drain You" },
+        { "id": 91886, "name": "Voices of Omens" },
+        { "id": 91887, "name": "Dominion of Deceit" }
+      ]
+    },
+    {
+      "name": "Shadowguard's Shadow",
+      "quests": [
+        { "id": 92390, "name": "Risk for Research" },
+        { "id": 92155, "name": "Object Exorcism" },
+        { "id": 92156, "name": "It Follows Me" },
+        { "id": 92157, "name": "Ritual Activity" },
+        { "id": 92158, "name": "Let It In" },
+        { "id": 92159, "name": "A Final Destination" }
+      ]
+    },
+    {
+      "name": "A Gift, Given Freely",
+      "quests": [
+        { "id": 92603, "name": "O Lonely Star" },
+        { "id": 92604, "name": "Speak in Blood" },
+        { "id": 92605, "name": "Honest as Bone" },
+        { "id": 92606, "name": "Take Up Your Gift" },
+        { "id": 92607, "name": "And Carve New Shapes" }
+      ]
+    },
+    {
+      "name": "Breaking the Triad",
+      "quests": [
+        { "id": 91565, "name": "Voidscar Arena: The Grief Spire" },
+        { "id": 91583, "name": "Voidscar Arena: The Bastion of Valor" },
+        { "id": 91597, "name": "Voidscar Arena: For My Alliance" },
+        { "id": 91598, "name": "Voidscar Arena: Pre-Provoked Violence" },
+        { "id": 91599, "name": "Voidscar Arena: A Familiar Grudge" },
+        { "id": 91600, "name": "Voidscar Arena: Setting It Aside" },
+        { "id": 91603, "name": "Voidscar Arena: Two Against One" },
+        { "id": 91605, "name": "Voidscar Arena: The Wrong Side" },
+        { "id": 91606, "name": "Voidscar Arena: Clearing House" },
+        { "id": 91694, "name": "Voidscar Arena: Breaking the Triad" }
+      ]
+    },
+    {
+      "name": "Go Low, Go Loud",
+      "quests": [
+        { "id": 92657, "name": "The Brewing Storm" },
+        { "id": 92658, "name": "Tactical Acquisition" },
+        { "id": 92659, "name": "Resource Denial" },
+        { "id": 92660, "name": "Null Implements" },
+        { "id": 92661, "name": "Hammer Meet Anvil" },
+        { "id": 92662, "name": "Core Collapse" }
+      ]
+    },
+    {
+      "name": "Secrets in the Dark",
+      "quests": [
+        { "id": 92939, "name": "It's Not Just a Rock!" },
+        { "id": 92946, "name": "Buried in the Dark" },
+        { "id": 92944, "name": "Sifting Through Void" },
+        { "id": 92948, "name": "In Over My Head" }
+      ]
+    },
+    {
+      "name": "Oaths to Family",
+      "quests": [
+        { "id": 90845, "name": "Distant Memories" },
+        { "id": 90838, "name": "Oaths and Heirlooms" },
+        { "id": 90844, "name": "Fits of Lucidity" },
+        { "id": 90847, "name": "Truth From Power" },
+        { "id": 90848, "name": "She Started the Fire" },
+        { "id": 90851, "name": "Eating Their Own" },
+        { "id": 90852, "name": "Techno-Magnetic Pulse" },
+        { "id": 93396, "name": "Bursting at the Seams" },
+        { "id": 90858, "name": "Repress the Oppressors" },
+        { "id": 90860, "name": "Shedding the Yoke" }
+      ]
+    },
+    {
+      "name": "To Be Changed",
+      "quests": [
+        { "id": 91545, "name": "Stronger Than Before" },
+        { "id": 91546, "name": "To Be Changed" },
+        { "id": 91544, "name": "Familiar Energies" },
+        { "id": 91963, "name": "Running Amok" },
+        { "id": 91543, "name": "Retaking Control" },
+        { "id": 91542, "name": "The Town Inside Me" },
+        { "id": 91541, "name": "Unchecked Emotions" },
+        { "id": 91537, "name": "Confronting It" },
+        { "id": 91536, "name": "Like a Weed" },
+        { "id": 91535, "name": "Home Sweet Grave" },
+        { "id": 91533, "name": "What We Leave Behind" }
+      ]
+    },
+    {
+      "name": "Dance with the Devil",
+      "quests": [
+        { "id": 90914, "name": "A Born Killer" },
+        { "id": 90915, "name": "Artifice of Aggression" },
+        { "id": 90916, "name": "Seek to Destroy" },
+        { "id": 90917, "name": "Harvester of Savagery" },
+        { "id": 90918, "name": "The Unforgiven" },
+        { "id": 90919, "name": "The Fiend That Failed" },
+        { "id": 90920, "name": "Warmth for the Soul" },
+        { "id": 90924, "name": "The Wicked End" },
+        { "id": 90922, "name": "The Fallen Wake" },
+        { "id": 90923, "name": "Shepherd of Fear" }
+      ]
+    },
+    {
+      "name": "A Domanaar's Best Friend",
+      "quests": [
+        { "id": 91363, "name": "Harvest of Darkness" },
+        { "id": 91380, "name": "Belly of the Beast" },
+        { "id": 91382, "name": "Mighty and Superior" }
+      ]
+    },
+    {
+      "name": "A More Potent Foe",
+      "quests": [
+        { "id": 92505, "name": "Truth of the Past" },
+        { "id": 92506, "name": "The Soul Price" },
+        { "id": 92507, "name": "A More Potent Foe" },
+        { "id": 92508, "name": "The Mark of Sacrifice" },
+        { "id": 92509, "name": "One Cruel Implement" },
+        { "id": 92510, "name": "Dark Infusion" },
+        { "id": 92511, "name": "Event Horizon" },
+        { "id": 92512, "name": "Devourer" }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+## Interface: 120100
+## Title: Midnight Tracker
+## Notes: Scans quest completion for the Midnight Tracker web checklist. Type /mtrack to export.
+## Author: MidnightTracker
+## Version: 1.0.0
+## SavedVariablesPerCharacter: MidnightTrackerData
+MidnightTracker.lua

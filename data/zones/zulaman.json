@@ -1,0 +1,257 @@
+{
+  "id": "zulaman",
+  "name": "Zul'Aman",
+  "levelBand": [82, 88],
+  "requires": [],
+  "note": "The Classic raid expanded into a full zone, revealing the ancestral lands of the Forest Trolls. Ancient forests, hidden crypts, and ziggurats await as you explore alongside Zul'jin's children, Zul'jarra and Zul'jan.",
+  "achievements": {
+    "campaign": "For Zul'Aman!",
+    "sojourner": "Sojourner of Zul'Aman"
+  },
+  "intro": null,
+  "chapters": [
+    {
+      "n": 1,
+      "name": "Dis Was Our Land",
+      "quests": [
+        { "id": 86708, "name": "The Gates of Zul'Aman" },
+        { "id": 86710, "name": "The Line Must Be Drawn Here" },
+        { "id": 90749, "name": "Our Mutual Enemy" },
+        { "id": 86868, "name": "Goodwill Tour" },
+        { "id": 86711, "name": "Amani Clarion Call" },
+        { "id": 86719, "name": "Important Amani" },
+        { "id": 86717, "name": "Show Us Your Worth" },
+        { "id": 86716, "name": "Armed by Light" },
+        { "id": 86721, "name": "Everything We Worked For" },
+        { "id": 86712, "name": "The Amani Stand Strong" },
+        { "id": 86718, "name": "Twilight Bled" },
+        { "id": 86715, "name": "Rituals Cut Short" },
+        { "id": 86720, "name": "Break the Blade" },
+        { "id": 86722, "name": "Heart of the Amani" },
+        { "id": 86723, "name": "Isolation" },
+        { "id": 86652, "name": "Left in the Shadows" }
+      ]
+    },
+    {
+      "n": 2,
+      "name": "Path of de Hash'ey",
+      "quests": [
+        { "id": 86653, "name": "The Path of the Amani" },
+        { "id": 86655, "name": "De Ancient Path" },
+        { "id": 89334, "name": "Ahead of the Issue" },
+        { "id": 86654, "name": "Gnarldin Bashing" },
+        { "id": 86656, "name": "Brutal Feast" },
+        { "id": 86809, "name": "Test of Conviction" },
+        { "id": 86657, "name": "Shadebasin Watch" },
+        { "id": 86658, "name": "The Crypt in the Mist" },
+        { "id": 86660, "name": "Rescue from the Shadows" },
+        { "id": 86659, "name": "Breaching the Mist" },
+        { "id": 92084, "name": "Halazzi's Guile" },
+        { "id": 86661, "name": "Coals of a Dead Loa" },
+        { "id": 86808, "name": "The Riddled Speaker" },
+        { "id": 86663, "name": "Embers to a Flame" },
+        { "id": 86664, "name": "Seer or Sear" },
+        { "id": 86665, "name": "Face in the Fire" },
+        { "id": 90772, "name": "The Flames Rise Higher" },
+        { "id": 86666, "name": "In the Shadow of Rebirth" }
+      ]
+    },
+    {
+      "n": 3,
+      "name": "Where War Slumbers",
+      "quests": [
+        { "id": 86681, "name": "Den of Nalorakk: A Taste of Vengeance" },
+        { "id": 86682, "name": "Den of Nalorakk: Waking de Bear" },
+        { "id": 91958, "name": "Den of Nalorakk: Unforgiven" }
+      ]
+    },
+    {
+      "n": 4,
+      "name": "De Amani Never Die",
+      "quests": [
+        { "id": 86683, "name": "Hash'ey Away" },
+        { "id": 86684, "name": "The Blade's Edge" },
+        { "id": 86687, "name": "Conduit Crisis" },
+        { "id": 86685, "name": "Chip and Shatter" },
+        { "id": 86686, "name": "Light Indiscriminate" },
+        { "id": 91001, "name": "Clear de Way" },
+        { "id": 86692, "name": "Blade Shattered" },
+        { "id": 86693, "name": "De Legend of de Hash'ey" },
+        { "id": 91062, "name": "Broken Bridges" }
+      ]
+    }
+  ],
+  "sideStories": [
+    {
+      "name": "Healing the Spirit",
+      "quests": [
+        { "id": 91206, "name": "Loa Disturbance" },
+        { "id": 87254, "name": "Curse Cleanse" },
+        { "id": 87256, "name": "Alternative Medicine" },
+        { "id": 87267, "name": "Demands Unmet" },
+        { "id": 87268, "name": "Required Repentance" },
+        { "id": 87317, "name": "Denial Denied" },
+        { "id": 92531, "name": "The Medicine Loa's Shrine" }
+      ]
+    },
+    {
+      "name": "Sawdust to Sawdust",
+      "quests": [
+        { "id": 88986, "name": "Blind the Bandits" },
+        { "id": 88987, "name": "Salvaged Sabotage" },
+        { "id": 88988, "name": "The Artisan's Apprentice" },
+        { "id": 88989, "name": "Another One Bites the Sawdust" }
+      ]
+    },
+    {
+      "name": "Between Two Trolls",
+      "quests": [
+        { "id": 89230, "name": "A Lover Not a Fighter" },
+        { "id": 89231, "name": "A Fighter Not a Lover" },
+        { "id": 89233, "name": "Love Triangle" }
+      ]
+    },
+    {
+      "name": "Unlikely Friends",
+      "quests": [
+        { "id": 93667, "name": "Camp Stonewash" },
+        { "id": 90481, "name": "I Have a Permit" },
+        { "id": 90482, "name": "Cuisine Connection" },
+        { "id": 90486, "name": "Dangerous Delicacies" },
+        { "id": 90483, "name": "A Witherbark Story" },
+        { "id": 90484, "name": "Sightseeing Stegadon" },
+        { "id": 90485, "name": "Afterthought Artifacts" },
+        { "id": 90568, "name": "Unlikely Friends" }
+      ]
+    },
+    {
+      "name": "Reclaiming De Honor",
+      "quests": [
+        { "id": 92492, "name": "Honorin' de Sacrifice" },
+        { "id": 92493, "name": "What Remains of Idago" },
+        { "id": 92495, "name": "Disruptin' de Blade" },
+        { "id": 92496, "name": "Spears Against de Shadow" },
+        { "id": 92497, "name": "Simply Magical" },
+        { "id": 92499, "name": "The Wisest Leaders Follow" }
+      ]
+    },
+    {
+      "name": "Loa of Murlocs",
+      "quests": [
+        { "id": 92163, "name": "The Loa of Murlocs" },
+        { "id": 92164, "name": "Murloc Madness" },
+        { "id": 92165, "name": "Fish Are Food, Not Friends" },
+        { "id": 92166, "name": "Following Suit" },
+        { "id": 92167, "name": "There Can Be Only One" }
+      ]
+    },
+    {
+      "name": "Bitter Honor",
+      "quests": [
+        { "id": 93093, "name": "Gnarldin Trophies" },
+        { "id": 93094, "name": "Scavenged Victory" },
+        { "id": 93095, "name": "Bitter Fury" },
+        { "id": 93096, "name": "Amani Honor" }
+      ]
+    },
+    {
+      "name": "The Sound of Her Voice",
+      "quests": [
+        { "id": 93178, "name": "A Quiet Walk Interrupted" },
+        { "id": 93179, "name": "Childlike Devotion" },
+        { "id": 93180, "name": "Shrine Preparations" },
+        { "id": 93181, "name": "Temple and a Teapot" },
+        { "id": 93182, "name": "Healing Homeward" }
+      ]
+    },
+    {
+      "name": "A Venomous History",
+      "quests": [
+        { "id": 91406, "name": "Far from the Hinterlands" },
+        { "id": 91407, "name": "The Eye of the Loa" },
+        { "id": 91403, "name": "Probable Paralytic" },
+        { "id": 91404, "name": "A Most Vile Venom" },
+        { "id": 91405, "name": "Validating the Venom" },
+        { "id": 91408, "name": "Seeking Shadra" },
+        { "id": 91630, "name": "Stolen Sight" },
+        { "id": 91409, "name": "Dreaming of Spiders" },
+        { "id": 91411, "name": "Maisara Caverns: Deep in Maisara" },
+        { "id": 91412, "name": "Return of the Venom Queen" },
+        { "id": 91410, "name": "Shared Loa" }
+      ]
+    },
+    {
+      "name": "Something Vile This Way Comes",
+      "quests": [
+        { "id": 91833, "name": "Dirty Deeps" },
+        { "id": 91835, "name": "Send Dem Home" },
+        { "id": 91836, "name": "Respect de Totem" },
+        { "id": 91838, "name": "De Vile Diminished" },
+        { "id": 91840, "name": "One Will Not Rise" },
+        { "id": 91839, "name": "Sacrifice Denied" }
+      ]
+    },
+    {
+      "name": "Sorrowing Kin",
+      "quests": [
+        { "id": 89565, "name": "The Path of Mourning" },
+        { "id": 89503, "name": "Somber Siblings" },
+        { "id": 89506, "name": "Strong Ties" },
+        { "id": 89513, "name": "Kindling Aplenty" },
+        { "id": 89559, "name": "Reasonless Worship" },
+        { "id": 89560, "name": "A Quiet Farewell" }
+      ]
+    },
+    {
+      "name": "The Voice of Nalorakk",
+      "quests": [
+        { "id": 91813, "name": "The Spiritpaw" },
+        { "id": 91747, "name": "Not Quite Nalorakk" },
+        { "id": 91748, "name": "Too Much Twilight" },
+        { "id": 91749, "name": "It's Just Not Right" },
+        { "id": 93734, "name": "Precious Trinkets" },
+        { "id": 91750, "name": "Perils of Trust" }
+      ]
+    },
+    {
+      "name": "Vengeance for Tolbani",
+      "quests": [
+        { "id": 94867, "name": "Lost in Atal'Abasi" },
+        { "id": 91069, "name": "Vengeance for Tolbani" },
+        { "id": 91070, "name": "Reclaim the Goods" },
+        { "id": 91071, "name": "The Menace of Atal'Abasi" },
+        { "id": 91556, "name": "Loa's Flame" }
+      ]
+    },
+    {
+      "name": "No Fear",
+      "quests": [
+        { "id": 92450, "name": "Growing Up is Hard" },
+        { "id": 92451, "name": "I Think I Can" },
+        { "id": 92452, "name": "Not According to Plan" },
+        { "id": 92453, "name": "Fearless" }
+      ]
+    },
+    {
+      "name": "Bloodstains",
+      "quests": [
+        { "id": 93440, "name": "Personal History" },
+        { "id": 93432, "name": "Swords to Plowshares" },
+        { "id": 93433, "name": "Shrine, Sealed, Delivered" },
+        { "id": 93435, "name": "Four Instigators" },
+        { "id": 93436, "name": "Hex the Innocent, Disrupt the Guilty" },
+        { "id": 93437, "name": "In Their Own Blood" }
+      ]
+    },
+    {
+      "name": "River-Walkers of the Prowl",
+      "quests": [
+        { "id": 93257, "name": "Revantusk at Risk" },
+        { "id": 93258, "name": "Crab Clues" },
+        { "id": 93259, "name": "Clobbering Crawlers" },
+        { "id": 93260, "name": "Caging Crawlers" },
+        { "id": 93261, "name": "A Crab of Unusual Size" }
+      ]
+    }
+  ]
+}

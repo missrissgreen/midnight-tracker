@@ -1,0 +1,88 @@
+{
+  "id": "endgame",
+  "name": "The War of Light and Shadow",
+  "levelBand": [90, 90],
+  "requires": ["voidstorm"],
+  "note": "Max-level campaign finale. Includes dungeon and raid quests.",
+  "achievements": {
+    "campaign": "The War of Light and Shadow",
+    "sojourner": null
+  },
+  "intro": null,
+  "chapters": [
+    {
+      "n": 1,
+      "name": "Foothold",
+      "quests": [
+        { "id": 90777, "name": "Feeding the Flame" },
+        { "id": 88696, "name": "The Devouring Citadel" },
+        { "id": 88697, "name": "Clarity of Purpose" },
+        { "id": 88698, "name": "Master of Mayhem" },
+        { "id": 88699, "name": "Powerless" },
+        { "id": 91417, "name": "Seek out Arator" },
+        { "id": 88700, "name": "Two Tons of Metal and Holy Fire" },
+        { "id": 88701, "name": "The Memory Remains" },
+        { "id": 88702, "name": "Aegis of the Redeemer" },
+        { "id": 91426, "name": "The People's Champion" },
+        { "id": 88703, "name": "The Night Before" },
+        { "id": 88704, "name": "The Patient Hunter" },
+        { "id": 88705, "name": "Killing Blow" },
+        { "id": 88706, "name": "Nothing Stands Forever" },
+        { "id": 94957, "name": "War of Light and Shadow" }
+      ]
+    },
+    {
+      "n": 2,
+      "name": "The Voidspire",
+      "quests": [
+        { "id": 90690, "name": "Charge of the Vanguard" },
+        { "id": 88709, "name": "The Voidspire" },
+        { "id": 90724, "name": "The Broken Sky" },
+        { "id": 92520, "name": "Wake of the Darkwell" }
+      ]
+    },
+    {
+      "n": 3,
+      "name": "Gathering of the Elves",
+      "quests": [
+        { "id": 88920, "name": "The Kaldorei" },
+        { "id": 88923, "name": "Children of the Stars" },
+        { "id": 88925, "name": "Awaken the Ancient of War" },
+        { "id": 88937, "name": "Awaken the Ancient of Lore" },
+        { "id": 88927, "name": "Awaken the Ancient Protector" },
+        { "id": 88922, "name": "The Quel'dorei" },
+        { "id": 88938, "name": "Symbols of the Past" },
+        { "id": 88939, "name": "Rest for the Restless" },
+        { "id": 88941, "name": "For Quel'Thalas" }
+      ]
+    },
+    {
+      "n": 4,
+      "name": "The Battle of the Bridge",
+      "quests": [
+        { "id": 90746, "name": "The Elves Assemble" },
+        { "id": 88769, "name": "The Battle of the Bridge" }
+      ]
+    },
+    {
+      "n": 5,
+      "name": "The Darkwell",
+      "quests": [
+        { "id": null, "name": "March on Quel'Danas" }
+      ]
+    },
+    {
+      "n": 6,
+      "name": "Dawn of a New Well",
+      "quests": [
+        { "id": 92689, "name": "A Path Forward" },
+        { "id": 90876, "name": "Reluctant Hand" },
+        { "id": 90871, "name": "The Silversun Compact" },
+        { "id": 90861, "name": "Those Left Behind" },
+        { "id": 90862, "name": "In Times of Need" },
+        { "id": 90867, "name": "From Darkness, Light" }
+      ]
+    }
+  ],
+  "sideStories": []
+}

@@ -1,0 +1,59 @@
+{
+  "id": "arator",
+  "name": "Arator's Journey",
+  "levelBand": [82, 88],
+  "requires": [],
+  "note": "One of three parallel branches. Takes place in Eastern Plaguelands and Burning Steppes. No sojourner chains.",
+  "achievements": {
+    "campaign": "Arator's Journey",
+    "sojourner": null
+  },
+  "intro": null,
+  "chapters": [
+    {
+      "n": 1,
+      "name": "The Path of Light",
+      "quests": [
+        { "id": 89193, "name": "Arator" },
+        { "id": 86837, "name": "Meet at the Sunwell" },
+        { "id": 86838, "name": "Renewal for the Weary" },
+        { "id": 86839, "name": "Relics of Light's Hope" },
+        { "id": 86840, "name": "Flickering Hope" },
+        { "id": 86841, "name": "Relics of Paladins Past" },
+        { "id": 86842, "name": "Scarlet Power" },
+        { "id": 86843, "name": "Light Miswielded" },
+        { "id": 86844, "name": "Light Repurposed" },
+        { "id": 92136, "name": "Infusion of Hope" },
+        { "id": 86902, "name": "Relinquishing Relics" },
+        { "id": 86845, "name": "The Sunwalker Path" },
+        { "id": 91000, "name": "A Humble Servant" },
+        { "id": 86846, "name": "Resupplying Our Suppliers" },
+        { "id": 89338, "name": "Gathering Plowshares" }
+      ]
+    },
+    {
+      "n": 2,
+      "name": "Regrets of the Past",
+      "quests": [
+        { "id": 86822, "name": "One Final Relic" },
+        { "id": 86823, "name": "The Dark Horde" },
+        { "id": 86824, "name": "None Left Standing" },
+        { "id": 86825, "name": "Faithful Servant, Faithless Cause" },
+        { "id": 91391, "name": "Still Scouting" },
+        { "id": 86827, "name": "Due Recognition" },
+        { "id": 86826, "name": "Nagosh the Scarred" },
+        { "id": 91842, "name": "Disarm the Dark Horde" },
+        { "id": 86828, "name": "Not Just a Troll's Bane" },
+        { "id": 86831, "name": "Warriors Without a Warlord" },
+        { "id": 86830, "name": "A True Horde of Dark Horde" },
+        { "id": 86829, "name": "A Landmark Moment" },
+        { "id": 91726, "name": "Unstoppable Force" },
+        { "id": 86832, "name": "A Worthy Forge" },
+        { "id": 86833, "name": "A Bulwark Remade" },
+        { "id": 86903, "name": "The Arcantina" },
+        { "id": 91787, "name": "The Journey Ends" }
+      ]
+    }
+  ],
+  "sideStories": []
+}

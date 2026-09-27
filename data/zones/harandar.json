@@ -1,0 +1,239 @@
+{
+  "id": "harandar",
+  "name": "Harandar",
+  "levelBand": [82, 88],
+  "requires": [],
+  "note": "Home of the Haranir allied race — a primordial fungal jungle built around the roots of the World Trees. Massive towers, bridges, and ruins teem with bioluminescent wildlife.",
+  "achievements": {
+    "campaign": "One Does Not Simply Walk Into Harandar",
+    "sojourner": "Sojourner of Harandar"
+  },
+  "intro": null,
+  "chapters": [
+    {
+      "n": 1,
+      "name": "Of Caves and Cradles",
+      "quests": [
+        { "id": 89402, "name": "Harandar" },
+        { "id": 86899, "name": "The Root Cause" },
+        { "id": 86900, "name": "To Har'athir" },
+        { "id": 86901, "name": "The Rift and the Den" },
+        { "id": 86929, "name": "The Council Assembles" },
+        { "id": 86907, "name": "The Den of Echoes" },
+        { "id": 86911, "name": "Echoes and Memories" },
+        { "id": 90094, "name": "Echo of the Hunt" },
+        { "id": 90095, "name": "Echo of the Call" },
+        { "id": 86912, "name": "Down the Rootways" },
+        { "id": 86913, "name": "A Hut in Har'mara" },
+        { "id": 86914, "name": "Tending to Har'mara" },
+        { "id": 86956, "name": "The Traveling Flowers" },
+        { "id": 86910, "name": "Koozat's Trample" },
+        { "id": 86973, "name": "Halting Harm in Har'mara" },
+        { "id": 86942, "name": "Culling the Spread" },
+        { "id": 89034, "name": "Burning Bitterblooms" },
+        { "id": 86944, "name": "Seeds of the Rift" }
+      ]
+    },
+    {
+      "n": 2,
+      "name": "Call of the Goddess",
+      "quests": [
+        { "id": 86930, "name": "To Sow the Seed" },
+        { "id": 86864, "name": "Watch the Den" },
+        { "id": 86836, "name": "The Hunter Awaits" },
+        { "id": 86855, "name": "Consequences of Our Duty" },
+        { "id": 86851, "name": "The Foundation of Aln" },
+        { "id": 86856, "name": "Dampening the Call" },
+        { "id": 86857, "name": "Descent into the Rift" },
+        { "id": 86858, "name": "The Madness Roots Deep" },
+        { "id": 86861, "name": "Herding Manifestations" },
+        { "id": 86860, "name": "Before They Grow" },
+        { "id": 86859, "name": "Grinding Out a Solution" },
+        { "id": 86862, "name": "The Greater They Aln" },
+        { "id": 86865, "name": "In Search of the Problem" },
+        { "id": 86866, "name": "Can We Heal This?" },
+        { "id": 94677, "name": "The Missing Rootwarden" },
+        { "id": 86882, "name": "Alndust in Right Hands" },
+        { "id": 86867, "name": "Into the Lightbloom" },
+        { "id": 86881, "name": "At the Root" },
+        { "id": 86880, "name": "Our Beloved, Returned" },
+        { "id": 86877, "name": "Righteous Pruning" },
+        { "id": 86890, "name": "Tell the People What You Have Seen" }
+      ]
+    },
+    {
+      "n": 3,
+      "name": "Emergence",
+      "quests": [
+        { "id": 86883, "name": "The Frenzied March" },
+        { "id": 86885, "name": "Stem the Tides" },
+        { "id": 86884, "name": "Cull and Burn" },
+        { "id": 86887, "name": "Expeditious Retreat" },
+        { "id": 86891, "name": "A Last Resort" },
+        { "id": 86892, "name": "Survive" },
+        { "id": 86894, "name": "The Gift of Aln'hara" },
+        { "id": 86896, "name": "Light Finds a Way" },
+        { "id": 86897, "name": "Quelling the Frenzy" },
+        { "id": 86898, "name": "Rise of the Haranir" }
+      ]
+    }
+  ],
+  "sideStories": [
+    {
+      "name": "A Goblin in Harandar",
+      "quests": [
+        { "id": 90533, "name": "Go Get Orweyna!" },
+        { "id": 90534, "name": "The Home of the Haranir" },
+        { "id": 90535, "name": "Leave Your Mark" }
+      ]
+    },
+    {
+      "name": "The Legend of Aln'sharan",
+      "quests": [
+        { "id": 90467, "name": "Tales of the Sky" },
+        { "id": 90468, "name": "Ugh, Chores!" },
+        { "id": 90469, "name": "Carry On, Wayward Kuri" },
+        { "id": 90470, "name": "Skyglass Scavenging" },
+        { "id": 90474, "name": "The Legend of Aln'sharan" }
+      ]
+    },
+    {
+      "name": "Late Bloomers",
+      "quests": [
+        { "id": 90537, "name": "Late Bloomers" },
+        { "id": 90540, "name": "Rutaani Rescue" },
+        { "id": 90569, "name": "Back in the Bag" },
+        { "id": 90963, "name": "Caves of the Cleft" },
+        { "id": 90601, "name": "Gathering Glowshrooms" },
+        { "id": 90602, "name": "Gomphusta" }
+      ]
+    },
+    {
+      "name": "The Greenspeaker's Vigil",
+      "quests": [
+        { "id": 91346, "name": "Supplicants to the Goddess" },
+        { "id": 91359, "name": "Fungal Lashers B Gone" },
+        { "id": 91360, "name": "Weeding Out the Unwanted" },
+        { "id": 91361, "name": "Back on Duty?" }
+      ]
+    },
+    {
+      "name": "Peril Among Petals",
+      "quests": [
+        { "id": 91063, "name": "The Blooming Lattice" },
+        { "id": 91065, "name": "Purloining Petals" },
+        { "id": 91085, "name": "Petal Bristles" },
+        { "id": 91086, "name": "Nipping the Buds" },
+        { "id": 91088, "name": "Behind the Falls" },
+        { "id": 91136, "name": "Memories in Stone" }
+      ]
+    },
+    {
+      "name": "Haranir Never Say Die",
+      "quests": [
+        { "id": 91550, "name": "A Game of Silence and Shadow" },
+        { "id": 91551, "name": "De-nest-stration" },
+        { "id": 91552, "name": "Feathered Fury" },
+        { "id": 91553, "name": "Haranir Never Say Die!" }
+      ]
+    },
+    {
+      "name": "Harandar's Kitchen",
+      "quests": [
+        { "id": 91585, "name": "Fresh from the Garden" },
+        { "id": 91586, "name": "Soil-Based Alternatives" },
+        { "id": 91587, "name": "Carcass Cuisine" },
+        { "id": 91588, "name": "Harandar's Kitchen" },
+        { "id": 91589, "name": "Root Dash Delivery" }
+      ]
+    },
+    {
+      "name": "Silence at Fungara Village",
+      "quests": [
+        { "id": 91375, "name": "The Silence at Fungara Village" },
+        { "id": 91376, "name": "Little Monsters" },
+        { "id": 91377, "name": "Spawn of the Dead" },
+        { "id": 91378, "name": "You Are Legend" },
+        { "id": 91379, "name": "Decayed Land" },
+        { "id": 91381, "name": "Reticent Evil" }
+      ]
+    },
+    {
+      "name": "Cultivating Hope",
+      "quests": [
+        { "id": 91872, "name": "The Former Rootwarden" },
+        { "id": 91873, "name": "Buffer Zone" },
+        { "id": 91875, "name": "Natural Remedy" },
+        { "id": 91874, "name": "Flare Up" },
+        { "id": 91876, "name": "Tending Hope" }
+      ]
+    },
+    {
+      "name": "Hunter's Rite",
+      "quests": [
+        { "id": 92882, "name": "A Hunter's Plight" },
+        { "id": 92883, "name": "A Hunter's Duty" },
+        { "id": 92884, "name": "A Hunter's Weapon" },
+        { "id": 92885, "name": "A Hunter's Prey" }
+      ]
+    },
+    {
+      "name": "A Palette of Feelings",
+      "quests": [
+        { "id": 92694, "name": "Dusk Among Pigments" },
+        { "id": 92695, "name": "The Stroke of Storms" },
+        { "id": 92696, "name": "Colors Born Anew" },
+        { "id": 92697, "name": "Hues of Tomorrow" }
+      ]
+    },
+    {
+      "name": "Predator Reintroduction",
+      "quests": [
+        { "id": 92864, "name": "Drift Them Away" },
+        { "id": 92865, "name": "Feeding the Buds" },
+        { "id": 92866, "name": "Re-Hydra-ted" }
+      ]
+    },
+    {
+      "name": "Bloomtown",
+      "quests": [
+        { "id": 92732, "name": "Light Disturbance" },
+        { "id": 92736, "name": "Light Stroll" },
+        { "id": 92737, "name": "Light Carnage" },
+        { "id": 92738, "name": "Potatoad Tots" },
+        { "id": 92739, "name": "O.K. Bloomer" }
+      ]
+    },
+    {
+      "name": "The Grudge Pit",
+      "quests": [
+        { "id": 90615, "name": "Be Grudge You" },
+        { "id": 90616, "name": "You Strong?" },
+        { "id": 90617, "name": "A Few Fun Guys" },
+        { "id": 90619, "name": "What Doesn't Kill Them" },
+        { "id": 91450, "name": "We Ready Now" },
+        { "id": 91270, "name": "The Most Important Thing" },
+        { "id": 90620, "name": "To the Ring" },
+        { "id": 90621, "name": "Tiny Heroes' Journeys" },
+        { "id": 92616, "name": "Mushrooming Courage" },
+        { "id": 92617, "name": "Mushrooming Resilience" },
+        { "id": 92618, "name": "Mushrooming Confidence" },
+        { "id": 90622, "name": "Not-Yet Defeated Champions" }
+      ]
+    },
+    {
+      "name": "Trials of the Shul'ka",
+      "quests": [
+        { "id": 90824, "name": "My Brother's Alive!" },
+        { "id": 90826, "name": "The Healing Waters of Ahl'ua" },
+        { "id": 90827, "name": "Only the Poisonous Parts" },
+        { "id": 90829, "name": "Meeting My Mentor" },
+        { "id": 90830, "name": "The Path Will Reveal Itself" },
+        { "id": 90831, "name": "Doing Is Becoming" },
+        { "id": 90832, "name": "As Her Voice Goes Silent" },
+        { "id": 90833, "name": "The Final Rite" },
+        { "id": 90834, "name": "From This Point Forward" }
+      ]
+    }
+  ]
+}
